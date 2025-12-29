@@ -10,4 +10,14 @@ export { type DialogueRuntime, type RuntimeEvent, type RuntimeEventType } from '
 export { CommandDispatcher, type CommandHandler, type CommandContext } from './command-dispatcher';
 export { VariableStorage, InMemoryVariableStorage, type VariableValue } from './variable-storage';
 export { LineProvider, type LineProviderOptions, type LocalizedLine } from './line-provider';
+export {
+  DialogueTreeRuntime,
+  NODE_TYPE,
+  type DialogueTree,
+  type DialogueNode,
+  type NodeType,
+  type NpcNode,
+  type PlayerNode,
+  type PlayerChoice,
+} from './dialogue-tree-runtime';
 
